@@ -4,7 +4,7 @@
 The purpose of this repository is to create an automated pipeline that takes in new data, performs the appropriate transformations of the dataset, and loads the data into existing tables. One function was created that takes in the three files: Wikipedia data, Kaggle metadata, and the MovieLens rating data and performs the ETL process by adding the data to a PostgreSQL database.
 
 ## Resources 
-To load in the large ratings.csv file, lfs was utilized. LFS did not work on its own. The following code enabled the file to be pushed:
+To load in the large ratings.csv file, lfs was utilized. LFS did not work on its own. The following code was utilized to push the file:
 
 git config --global lfs.dialtimeout 60 <br/>
 git config --global lfs.transfer.maxretries 5<br/>
