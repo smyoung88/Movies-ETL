@@ -6,8 +6,8 @@ The purpose of this repository is to create an automated pipeline that takes in 
 ## Resources 
 To load in the large ratings.csv file, lfs was utilized. LFS did not work on its own. The following code enabled the file to be pushed:
 
-git config --global lfs.dialtimeout 60
-git config --global lfs.transfer.maxretries 5
-GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -u origin master
+git config --global lfs.dialtimeout 60 <br/>
+git config --global lfs.transfer.maxretries 5<br/>
+GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -u origin master<br/>
 
 This code was received from https://github.com/git-lfs/git-lfs/issues/1581
