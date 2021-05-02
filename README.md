@@ -10,4 +10,4 @@ git config --global lfs.dialtimeout 60 <br/>
 git config --global lfs.transfer.maxretries 5<br/>
 GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -u origin master<br/>
 
-This code was received from https://github.com/git-lfs/git-lfs/issues/1581
+This code was found on https://github.com/git-lfs/git-lfs/issues/1581
